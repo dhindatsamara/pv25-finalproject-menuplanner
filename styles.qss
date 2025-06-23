@@ -1,0 +1,189 @@
+QMainWindow {
+    background-color: #fdfdfd;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+QPushButton {
+    background-color: none;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: normal;
+    border: 1px solid #000;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+}
+
+QPushButton:disabled {
+    background-color: #ccc;
+    color: #666;
+}
+
+QPushButton#generateButton, QPushButton#startButton {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+}
+
+QPushButton#generateButton:hover, QPushButton#startButton:hover {
+    background-color: #388e3c;
+}
+
+QPushButton#surpriseButton {
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+}
+
+QPushButton#surpriseButton:hover {
+    background-color: #1976d2;
+}
+
+QPushButton#surpriseButton:disabled {
+    background-color: #90caf9;
+    color: #eee;
+    border: none;
+}
+
+QPushButton#resetButton {
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+}
+
+QPushButton#resetButton:hover {
+    background-color: #d32f2f;
+}
+
+QPushButton#exportCsvButton, QPushButton#exportPdfButton, QPushButton#clearHistoryButton {
+    background-color: #607d8b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+}
+
+QPushButton#exportCsvButton:hover, QPushButton#exportPdfButton:hover, QPushButton#clearHistoryButton:hover {
+    background-color: #455a64;
+}
+
+QLabel {
+    color: #333;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+QLabel#formHeaderLabel, QLabel#historyHeaderLabel {
+    font-family: Poppins, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+QLabel#headerLabel {
+    font-family: Poppins Medium, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+QLabel#descLabel {
+    font-family: Centaur, serif;
+    font-size: 26px;
+}
+
+QLineEdit, QComboBox {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #222;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border: 1px solid #4caf50;
+    background-color: #f0fff0;
+}
+
+QRadioButton {
+    padding: 6px;
+    color: #333;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+}
+
+QRadioButton:checked {
+    color: #4caf50;
+}
+
+QTableWidget {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+QTableWidget::item:selected {
+    background-color: #d0e8ff;
+}
+
+QTabWidget::pane {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+QTabWidget::tab {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+    font-size: 18px;
+}
+
+QTabWidget::tab:selected {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+QTextEdit#resultTextEdit {
+    font-family: Consolas, monospace;
+    background-color: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding: 12px;
+    color: #111;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    line-height: 1.5;
+}
+
+QMenuBar {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+}
+
+QMenuBar::item:selected {
+    background-color: #e0e0e0;
+}
+
+QStatusBar {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+}
